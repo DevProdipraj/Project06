@@ -1,0 +1,30 @@
+.about_body > h1{
+    font-size: 3rem;
+    margin: 3rem 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+.about_body > h2{
+    font-size: 2.4rem;
+    margin: 2.5rem 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+.about_body > p{
+    font-size: 1.8rem;
+    margin: 1.5rem 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+.about_body > a{
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about_link{
+    padding: 3rem 0rem;
+}

@@ -1,0 +1,98 @@
+/***** RESET CSS *****/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+html{
+    font-size: 62.0%;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 95rem;
+    margin: 0 auto;
+}
+/***** End RESET CSS *****/
+
+/***** navbar section css start *****/
+.header{
+    background-color:#EAEAEA;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+.nav_brand{
+    width: 17rem;
+    height: auto;
+    overflow: hidden;
+}
+.nav_brand > img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+ul.menu li a {
+    color: #000;
+    font-size: 3rem;
+    font-family: 'Arial';
+    transition: all 0.3s ease;
+}
+ul.menu > li {
+    margin-right: 5rem;
+}
+input.nav_btn {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+    background-color: #0066F9;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+input.nav_btn:hover{
+    background-color:#7D4CDB;
+}
+.active{
+    border-bottom: 0.5rem solid #0066F9;
+}
+ul.menu li a:hover{
+    border-bottom: 0.5rem solid #0066F9;
+}
+.active:hover{
+    border: none !important;
+}
+/***** End navbar section css start *****/
+
+/***** footer section css start *****/
+    .footer{
+       padding: 5rem 0rem 2rem 0rem;
+    }
+    .footer_hr{
+        background-color: #EAEAEA;
+    }
+    .f_logo{
+        margin-bottom: 2rem;
+    }
+    .footer > p{
+        color: #000;
+        font-size: 2rem;
+        line-height: 1.4rem;
+        margin-top: 2rem;
+    }
+/***** End footer section css start *****/

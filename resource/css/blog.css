@@ -1,0 +1,12 @@
+.all_blogs > h1 {
+    font-size: 4rem;
+    margin: 2rem 0rem;
+}
+.blog_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+a{
+    color: #000;
+}
